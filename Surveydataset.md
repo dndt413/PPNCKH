@@ -97,7 +97,7 @@ Tập dữ liệu "Electricity Load Forecasting" là nguồn tài nguyên giá t
 1. Shahane, S. (n.d.). *Electricity Load Forecasting* [Data set]. Kaggle. https://www.kaggle.com/datasets/saurabhshahane/electricity-load-forecasting  
 2. Aisyah, S., & Simaremare, A. (2022). Exploratory weather data analysis for electricity load forecasting using SVM and GRNN, case study in Bali, Indonesia. *Energies*, 15(20), 7648. https://mdpi-res.com/d_attachment/energies/energies-15-03566/article_deploy/energies-15-03566.pdf?version=1652369979 (PDF)
 3. Kuster, C., Rezgui, Y., & Mourshed, M. (2022). Electrical load forecasting models: A critical systematic review. *Sustainable Cities and Society*, 85, 104047. https://orca.cardiff.ac.uk/id/eprint/103793/1/Manuscript.pdf   
-4. IEEE Transactions on Power Systems. (2020). Short-term load forecasting using LSTM. *IEEE Transactions on Power Systems*, 35(3), 2345-2354. 
+4. IEEE Transactions on Power Systems. (2020). Short-term load forecasting using LSTM. *IEEE Transactions on Power Systems*, 35(3), 2345-2354.  https://www.researchgate.net/publication/348690914_Short-Term_Electricity_Load_Forecasting_with_Machine_Learning
 5. Energy Journal. (2019). Long-term load forecasting using Prophet. *Energy Journal*, 40(2), 123-135.  
 6. IEEE Transactions on Power Systems. (2021). Anomaly detection in power consumption. *IEEE Transactions on Power Systems*, 36(4), 3456-3465. https://ieeexplore.ieee.org/document/9604919/metrics#metrics
 
