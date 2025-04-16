@@ -2,3 +2,5 @@
 2. Thực hiện việc làm đề cương chi tiết (đã thực hiện - đợi nhóm trưởng kiểm tra....)
 3. Thực hiện khảo sát lại nội dung của đề cương (đang thực hiện)
 4. Tổng hợp lại các related works trên zotero 
+5. Tìm hiểu về các code của đồ án (đang thực hiện)
+6. Tìm hiểu về phân tích luận văn để làm docx (đang thực hiện)

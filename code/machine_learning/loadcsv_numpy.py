@@ -1,6 +1,6 @@
 from numpy import loadtxt 
 from urllib.request import urlopen
-filename = '../../data/machine_learning/pima-indians-diabetes.data.csv' 
+filename = 'pima-indians-diabetes.data.csv' 
 raw_data = open(filename, 'r') 
 data = loadtxt(raw_data, delimiter=",") 
 print(data.shape)
