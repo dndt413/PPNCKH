@@ -4,3 +4,4 @@
 4. Tổng hợp lại các related works trên zotero 
 5. Tìm hiểu về các code của đồ án (đang thực hiện)
 6. Tìm hiểu về phân tích luận văn để làm docx (đang thực hiện)
+7. Pull file ở main và xem qua các chỉnh sửa và xem các code (đã thực hiện)
