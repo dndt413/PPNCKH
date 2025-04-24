@@ -5,10 +5,5 @@
 5. Tìm hiểu về các code của đồ án (đang thực hiện)
 6. Tìm hiểu về phân tích luận văn để làm docx (đã thực hiện)
 7. Pull file ở main và xem qua các chỉnh sửa và xem các code (đã thực hiện)
-8. Do tình trạng sức khỏe dẫn đến tạm thời chưa thực hiện thêm các tìm hiểu thêm về đồ án. 
-Hiện tại, do đang bị sốt siêu vi dẫn đến cảm cúm gồm nghẹt mũi, và viêm họng. Các triệu chứng hiện tại bao gồm:
-    1. Sốt cao và tái lại nhiều lần, mặc nhiều đồ và chảy mồ hôi nhưng vẫn lạnh
-    2. Đầu óc khó tập trung, ảo giác nhẹ như nhìn thấy con số nhưng lại nghĩ nó ra giá trị khác
-    3. Bị kiệt sức dẫn đến hạn chế trong giao tiếp, phải dồn hơi khi nói
-    4. Chán ăn
-    5. Đau họng, nghẹt mũi
+8. Do tình trạng sức khỏe dẫn đến tạm thời thời gian thực hiện thêm các tìm hiểu thêm về đồ án sẽ bị chậm lại
+9. Tìm hiểu về các yêu cầu hoàn thành file word Đề cương và báo cáo nckh mà thầy yêu cầu và slide thuyết trình
