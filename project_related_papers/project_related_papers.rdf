@@ -1,0 +1,42 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:dcterms="http://purl.org/dc/terms/">
+    <rdf:Description rdf:about="#item_60">
+        <z:itemType>document</z:itemType>
+        <link:link rdf:resource="#item_63"/>
+        <link:link rdf:resource="#item_64"/>
+        <link:link rdf:resource="#item_62"/>
+        <link:link rdf:resource="#item_65"/>
+        <dc:title>Project related works</dc:title>
+        <dcterms:abstract>related works of our group project</dcterms:abstract>
+        <z:language>English</z:language>
+        <z:shortTitle>All papers about related to electricity comsumption</z:shortTitle>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_63">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/63/2021_Index_IEEE_Transactions_on_Power_Systems_Vol._36.pdf"/>
+        <dc:title>2021_Index_IEEE_Transactions_on_Power_Systems_Vol._36</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_64">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/64/energies-15-03566.pdf"/>
+        <dc:title>Aisyah, S., &amp; Simaremare, A. (2022). Exploratory weather data analysis for electricity load forecasting using SVM and GRNN, case study in Bali, Indonesia. *Energies*</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_62">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/62/Project related works.pdf"/>
+        <dc:title>Kuster, C., Rezgui, Y., &amp; Mourshed, M. (2022). Electrical load forecasting models: A critical systematic review. *Sustainable Cities and Society*</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <z:Attachment rdf:about="#item_65">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/65/Short-Term_Electricity_Load_Forecasting_with_Machi.pdf"/>
+        <dc:title>Short-Term_Electricity_Load_Forecasting_with_Machi</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+</rdf:RDF>

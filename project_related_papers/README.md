@@ -1,0 +1,2 @@
+Nếu muốn zotero tạo 1 thư mục riêng trên thanh thư mục bên phải màn hình thì click vào file resource "project_related_papers"
+nó sẽ hỏi là có muốn import 1 thư mục chứa tất cả nội dung của thư mục trên zotero, click yes !
