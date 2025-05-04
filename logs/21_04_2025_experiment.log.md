@@ -22,10 +22,14 @@ Thử mô hình Linear Regression để dự báo điện năng theo giờ.
 
 ## 🤖 Mô hình: Linear Regression
 
-- n_estimators = 100
-- max_depth = 6
-- MAE: 47.38
-- R2: 0.89
+- Độ chính xác trung bình CV (RMSE): 114.44723598631643
+- MAE trên tập test: 91.64537470845401
+- MAE trên tập train: 91.34617786516536
+- R2 Score: 0.6442074008093925
+- MAPE: 8.06267271504719
+- RMSE trên tập test: 114.59554965962873
+- RMSE trên tập train: 114.3674734042744
+- Độ chính xác của mô hình: 0.6442074008093925
 
 ## 📌 Kế hoạch tiếp theo
 
