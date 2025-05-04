@@ -18,8 +18,10 @@ Tập dữ liệu "Electricity Load Forecasting" bao gồm **17 thuộc tính**,
 ### 1. Cột thời gian
 - **datetime**: Thời gian của mỗi phép đo (ví dụ: `2023-01-01 00:00:00`), kiểu dữ liệu `Datetime`.
 
+
 ### 2. Cột tải điện
 - **nat_demand**: Tải điện quốc gia (National electricity load), đơn vị có thể là `kW` hoặc `MW`, kiểu dữ liệu `Float`.
+
 
 ### 3. Cột thời tiết (12 thuộc tính)
 - **T2M_[city]**: Nhiệt độ tại độ cao 2 mét (°C), ví dụ: `T2M_toc` (Tocumen, Panama City).
