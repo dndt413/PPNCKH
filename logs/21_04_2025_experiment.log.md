@@ -18,7 +18,7 @@ Thử mô hình Linear Regression để dự báo điện năng theo giờ.
 
 ## PKG sử dụng
 
-- XGBOOST, Scikit-learn, joblib, pandas
+- Scikit-learn, joblib, pandas
 
 ## 🤖 Mô hình: Linear Regression
 
@@ -33,5 +33,4 @@ Thử mô hình Linear Regression để dự báo điện năng theo giờ.
 
 ## 📌 Kế hoạch tiếp theo
 
-- Chuyển sang thử Linear Regression
 - So sánh biểu đồ dự đoán của các mô hình
