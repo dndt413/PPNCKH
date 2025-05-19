@@ -29,10 +29,18 @@ Dự án này nhằm xây dựng mô hình Machine Learning để dự đoán l�
 - **Thu thập dữ liệu**: Sử dụng dữ liệu tiêu thụ điện năng thực tế kết hợp với dữ liệu thời tiết.
 - **Tiền xử lý dữ liệu**: Làm sạch, xử lý giá trị thiếu, chuẩn hóa dữ liệu và tạo các đặc trưng mới (feature engineering).
 - **Huấn luyện mô hình**: Áp dụng các mô hình như Linear Regression, Random Forest và XGBoost để huấn luyện và đánh giá.
-- **Đánh giá mô hình**: Sử dụng các chỉ số như RMSE, MAE và R² để so sánh hiệu suất giữa các mô hình.
+- **Đánh giá mô hình**: Sử dụng các chỉ số như RMSE, MAPE, MAE và R² để so sánh hiệu suất giữa các mô hình.
 - **Triển khai mô hình**: Mô hình được đóng gói và cung cấp thông qua một API có thể gọi từ ứng dụng khác.
 
 ## KẾT QUẢ ĐẠT ĐƯỢC
+
+- Đã hoàn thành tiền xử lý và phân tích dữ liệu (EDA).
+- Huấn luyện và đánh giá 3 mô hình:
+  - **Linear Regression**: Dễ triển khai, kết quả cơ bản.
+  - **Random Forest**: Kết quả ổn định hơn.
+  - **XGBoost**: Hiệu suất cao nhất, RMSE thấp nhất, R² cao nhất.
+- Tích hợp mô hình Random Forest vào một API RESTful.
+- Giao diện API hoạt động ổn định, cho phép dự đoán theo đầu vào người dùng cung cấp.
 
 ## CÂÚ TRÚC SRC CODECODE
 
@@ -81,3 +89,22 @@ Dự án này nhằm xây dựng mô hình Machine Learning để dự đoán l�
 │   └── train_xgboot.py
 
 ## HƯỚNG DẪN CHẠY
+
+### 1. Cài đặt thư viện
+
+Trước tiên, đảm bảo rằng bạn đang sử dụng Python 3.7 trở lên.
+
+Chạy lệnh sau để cài đặt các thư viện cần thiết:
+
+```bash
+pip install -r requirements.txt
+
+# Huấn luyện Linear Regression
+python train/train_LR.py
+
+# Huấn luyện Random Forest
+python train/train_RF.py
+
+# Huấn luyện XGBoost
+python train/train_xgboot.py
+```

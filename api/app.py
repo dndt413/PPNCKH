@@ -9,7 +9,7 @@ import os
 app = FastAPI()
 
 # Tải mô hình Random Forest
-model_path = "../models/model_random_forest.pkl"
+model_path = "../models/model_xgb.pkl"
 if not os.path.exists(model_path):
     raise HTTPException(status_code=500, detail="Mô hình không tồn tại!")
 model = joblib.load(model_path)
