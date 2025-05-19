@@ -17,16 +17,67 @@ Dự án này nhằm xây dựng mô hình Machine Learning để dự đoán l�
 
 ## MỤC TIÊU NGHIÊN CỨU
 
+- Phân tích các yếu tố ảnh hưởng đến tiêu thụ điện năng như nhiệt độ, độ ẩm, thời gian, ngày trong tuần,...
+- Xây dựng và huấn luyện các mô hình Machine Learning nhằm dự đoán chính xác lượng điện năng tiêu thụ.
+- So sánh hiệu suất giữa các mô hình như Linear Regression, Random Forest và XGBoost.
+- Tích hợp mô hình tốt nhất vào một API RESTful để triển khai như một dịch vụ.
+
+---
+
 ## PHƯƠNG PHÁP NGHIÊN CỨU
 
-## KẾ HOẠCH
+- **Thu thập dữ liệu**: Sử dụng dữ liệu tiêu thụ điện năng thực tế kết hợp với dữ liệu thời tiết.
+- **Tiền xử lý dữ liệu**: Làm sạch, xử lý giá trị thiếu, chuẩn hóa dữ liệu và tạo các đặc trưng mới (feature engineering).
+- **Huấn luyện mô hình**: Áp dụng các mô hình như Linear Regression, Random Forest và XGBoost để huấn luyện và đánh giá.
+- **Đánh giá mô hình**: Sử dụng các chỉ số như RMSE, MAE và R² để so sánh hiệu suất giữa các mô hình.
+- **Triển khai mô hình**: Mô hình được đóng gói và cung cấp thông qua một API có thể gọi từ ứng dụng khác.
 
-| Tuần | Công việc                                                                          |
-| :--: | :--------------------------------------------------------------------------------- |
-|  1   | Học kiến thức nền tảng (Python, Pandas,scikit-learn, Machine Learning, matplotlib) |
-|      | Thu thập và khảo sát dataset, Lên kế hoạch thực hiện nghiên cứu                    |
-|  2   | Tiền xử lý dữ liệu                                                                 |
-|  3   | Huấn luyện mô hình Machine Learning                                                |
-|  4   | Đánh giá và cải thiện mô hình                                                      |
-|  5   | Triển khai API, Viết báo cáo và tài liệu thuyết trình                              |
-|  6   | Hoàn thiện tài liệu và báo cáo                                                     |
+## KẾT QUẢ ĐẠT ĐƯỢC
+
+## CÂÚ TRÚC SRC CODECODE
+
+.
+├── README.md
+├── api
+│   └── app.py
+├── data
+│   ├── continuous_dataset.csv
+│   └── dataset
+│   ├── cleaning_dataset.csv
+│   └── continuous dataset.csv
+├── docs
+│   ├── BT6_PhanTichLuanVan_N3.docx
+│   ├── De_Cuong_NCKH.docx
+│   ├── NhomTest_ProjectProposal.docx
+│   ├── Surveydataset.md
+│   └── project_status.txt
+├── img
+├── logs
+│   ├── 12_04_2025_experiment_log.md
+│   └── 21_04_2025_experiment.log.md
+├── models
+│   ├── model_random_forest.pkl
+│   └── model_rf_metadata.json
+├── notebook
+│   ├── cleaning_data.ipynb
+│   ├── eda.ipynb
+│   └── testing_data.ipynb
+├── project_related_papers
+│   ├── README.md
+│   ├── files
+│   │   ├── 62
+│   │   │   └── Project related works.pdf
+│   │   ├── 63
+│   │   │   └── 2021_Index_IEEE_Transactions_on_Power_Systems_Vol.\_36.pdf
+│   │   ├── 64
+│   │   │   └── energies-15-03566.pdf
+│   │   └── 65
+│   │   └── Short-Term_Electricity_Load_Forecasting_with_Machi.pdf
+│   └── project_related_papers.rdf
+├── requirements.txt
+├── train
+│   ├── train_LR.py
+│   ├── train_RF.py
+│   └── train_xgboot.py
+
+## HƯỚNG DẪN CHẠY

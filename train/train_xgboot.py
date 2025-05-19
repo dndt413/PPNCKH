@@ -45,7 +45,7 @@ print("Đã lưu mô hình thành công vào file model.pkl")
 
 metadata = {
     "date_trained": pd.Timestamp.now().isoformat(),
-    "params": model.get_params(),
+    "model_type": "XGBoost",
     "mae_test": mae,
     "mae_train": mae,
     "r2": r2,

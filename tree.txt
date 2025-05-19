@@ -1,0 +1,48 @@
+.
+├── README.md
+├── api
+│   ├── __pycache__
+│   │   └── app.cpython-312.pyc
+│   └── app.py
+├── data
+│   ├── continuous_dataset.csv
+│   └── dataset
+│       ├── cleaning_dataset.csv
+│       └── continuous dataset.csv
+├── docs
+│   ├── BT6_PhanTichLuanVan_N3.docx
+│   ├── De_Cuong_NCKH.docx
+│   ├── NhomTest_ProjectProposal.docx
+│   ├── Surveydataset.md
+│   └── project_status.txt
+├── img
+├── logs
+│   ├── 12_04_2025_experiment_log.md
+│   └── 21_04_2025_experiment.log.md
+├── models
+│   ├── model_random_forest.pkl
+│   └── model_rf_metadata.json
+├── notebook
+│   ├── cleaning_data.ipynb
+│   ├── eda.ipynb
+│   └── testing_data.ipynb
+├── project_related_papers
+│   ├── README.md
+│   ├── files
+│   │   ├── 62
+│   │   │   └── Project related works.pdf
+│   │   ├── 63
+│   │   │   └── 2021_Index_IEEE_Transactions_on_Power_Systems_Vol._36.pdf
+│   │   ├── 64
+│   │   │   └── energies-15-03566.pdf
+│   │   └── 65
+│   │       └── Short-Term_Electricity_Load_Forecasting_with_Machi.pdf
+│   └── project_related_papers.rdf
+├── requirements.txt
+├── train
+│   ├── train_LR.py
+│   ├── train_RF.py
+│   └── train_xgboot.py
+└── tree.txt
+
+17 directories, 29 files

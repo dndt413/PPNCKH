@@ -1,1 +1,11 @@
-{"date_trained": "2025-05-07T22:45:34.166540", "model_type": "RandomForestRegressor", "params": {"n_estimators": 100, "max_depth": 6, "random_state": 42}, "mae_test": 57.75489560453118, "mae_train": 58.21604597558457, "r2": 0.8386779566064682, "mape": 5.061101590292276, "rmse_test": 77.16425262475985, "rmse_train": 78.01555478026259}
+{
+  "date_trained": "2025-05-07T22:45:34.166540",
+  "model_type": "RandomForestRegressor",
+  "params": { "n_estimators": 100, "max_depth": 6, "random_state": 42 },
+  "mae_test": 57.75489560453118,
+  "mae_train": 58.21604597558457,
+  "r2": 0.8386779566064682,
+  "mape": 5.061101590292276,
+  "rmse_test": 77.16425262475985,
+  "rmse_train": 78.01555478026259
+}
